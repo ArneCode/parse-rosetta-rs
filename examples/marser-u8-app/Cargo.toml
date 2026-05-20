@@ -1,0 +1,13 @@
+[package]
+name = "marser-u8-app"
+edition.workspace = true
+
+[[bin]]
+name = "marser-u8-app"
+path = "app.rs"
+
+[dependencies]
+marser = "0.1.2"
+
+[lints]
+workspace = true
